@@ -1,5 +1,14 @@
 # PYTHON Basics - CheatSheet 🐍
 
+### 0. REFERENCIAS
+
+My compiler :
+https://www.mycompiler.io/
+
+Diagrams :
+https://app.diagrams.net/
+
+
 ### 1. COMENTARIOS
 ```python
 # Este es un comentario en una linea

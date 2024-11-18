@@ -1,11 +1,11 @@
 print("-----------------CLASES Y OBJETOS---------------------")
 
 class Person: # Clase
-  x = 5
+  name = "Elioshem"
 
 p1 = Person() # Objeto
 
-print(p1.x)
+print(p1.name)
 
 print("-----------------METODOS Y ATRIBUTOS---------------------")
 
@@ -26,7 +26,7 @@ p1 = Person("John", 36)
 print(p1.name)
 print(p1.age)
 print(p1)
-print(p1.myfunc())
+p1.myfunc()
 
 #Modificar Atributos de Objeto
 p1.name = "Jeshua"
@@ -34,7 +34,7 @@ print(p1.name)
 p1.age = 20
 print(p1.age)
 print(p1)
-print(p1.myfunc())
+p1.myfunc()
 
 print("-----------------HERENCIA---------------------")
 
@@ -65,7 +65,7 @@ class Student(Person): # Clase Hija
     print(f"Welcome  {self.firstname} {self.lastname} to the class of {self.graduationyear}")
 
 #Nota: Cuando agregamos la funcion __init__() en una clase hija, ANULAMOS la herencia __init__ de la clase Padre.
-#Y para retomarla usaremos Person.__init__(self, atributo_01, atributo_02, etc), apartir del cual ya podemos crear mas aibutos.
+#Y para retomarla usaremos Person.__init__(self, atributo_01, atributo_02, etc), apartir del cual ya podemos crear mas atributos.
 # Tambien podemos usar la funcion super().__init__(atributo_01, atributo_02), para llamar a los atributos de la clase padre. 
 
 x = Student("Alondra", "Castillo", 2022)

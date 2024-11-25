@@ -20,7 +20,7 @@ class NombreClase():
 nombreObjeto = NombreClase()
 
 print(nombreObjeto.atributo01)
-print(nombreObjeto.metodo_1())
+nombreObjeto.metodo_1()
 
 print("-----------------HERENCIA---------------------")
 
@@ -30,7 +30,7 @@ class HerenciaClase(NombreClase):
 nombreObjeto02 = HerenciaClase()
 
 print(nombreObjeto.atributo02)
-print(nombreObjeto.metodo_2())
+nombreObjeto.metodo_2()
 
 
 print("-----------------POLIMORFISMO---------------------")
@@ -44,4 +44,4 @@ class HerenciaClase02(NombreClase):
 nombreObjeto03 = HerenciaClase02()
 
 print(nombreObjeto03.atributo02)
-print(nombreObjeto03.metodo_2())
+nombreObjeto03.metodo_2()
